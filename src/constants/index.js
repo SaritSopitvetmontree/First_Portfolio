@@ -23,6 +23,8 @@ import {
   LL,
   RD,
   threejs,
+  BlackGithub,
+  NestJS,
 } from "../assets";
 
 export const navLinks = [
@@ -93,8 +95,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "NestJS",
+    icon: NestJS,
   },
   {
     name: "Three JS",
@@ -105,12 +107,12 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "github",
+    icon: BlackGithub,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "figma",
+    icon: figma,
   },
 ];
 

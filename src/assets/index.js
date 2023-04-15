@@ -33,6 +33,8 @@ import Linkedin from "./Linkedin.png";
 import Github from "./Github.png";
 import Instagram from "./Instagram.png";
 import Mail from "./Mail.png";
+import BlackGithub from "./BlackGithub.png";
+import NestJS from "./NestJS.png";
 
 export {
   logo,
@@ -67,4 +69,6 @@ export {
   Github,
   Instagram,
   Mail,
+  BlackGithub,
+  NestJS,
 };
