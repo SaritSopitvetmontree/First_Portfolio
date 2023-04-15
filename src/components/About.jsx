@@ -36,6 +36,13 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
+  const styleone = {
+    color: "#895eeb",
+  }
+  const styletwo = {
+    color: "#FB8B24",
+  }
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -47,8 +54,25 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        My name is Sarit. Born in Bangkook, now in Tokyo. Once a mechanical engineer, now a 
-        software developer. 
+        <p>Hi, I'm Sarit Sopitvetmontree, a graduate student passionate about front-end 
+        development. My expertise lies in React, while I also possess knowledge in UX/UI design, 
+        back-end development, and database. I prioritize user experience and believe the digital 
+        world offers limitless creative possibilities. Outside of work, I enjoy exploring nature and 
+        immersing myself in fictional stories. Feel free to reach out and connect! 😊 </p>
+        <br />
+        <p style={styleone}><b>Languages I speak : </b>Thai English Japanese HTML CSS Javascript</p>
+        <p style={styleone}><b>Technologies I know : </b>Typescript React.js Tailwind Express.js Nest.js</p>
+        <p style={styleone}><b>Tools I use : </b>Linux VSCode Git/Github Figma</p>
+        <br />
+        <p style={styletwo}><b>My career goal : </b>Becoming a person who can both design and develop digital products</p>
+        <p style={styletwo}><b>My current plan : </b>I will first become a proficient front-end developer. Once I have gained experience and confidence, I will pursue UX/UI design to expand my expertise.</p>
+        
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
         
       </motion.p>
 
