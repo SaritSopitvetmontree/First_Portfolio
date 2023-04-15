@@ -26,9 +26,9 @@ import shopify from "./company/shopify.png";
 import Liigo from "./company/Liigo.png";
 import KELPS from "./company/KELPS.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import FD from "./FD.png";
+import LL from "./LL.png";
+import RD from "./RD.png";
 
 export {
   logo,
@@ -56,7 +56,7 @@ export {
   shopify,
   Liigo,
   KELPS,
-  carrent,
-  jobit,
-  tripguide,
+  FD,
+  LL,
+  RD,
 };

@@ -19,9 +19,9 @@ import {
   Liigo,
   KELPS,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  FD,
+  LL,
+  RD,
   threejs,
 } from "../assets";
 
@@ -123,7 +123,7 @@ const experiences = [
     date: "APR 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Learned the daily tasks of a software developer and how to operate in a team.",
+      "Learned the daily tasks as a software developer and how to operate in a team.",
     ],
   },
   {
@@ -171,65 +171,64 @@ const projects = [
   {
     name: "Face Detection",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A full-stack web app utilizing a face detection API with a built-in registration and login system. The app can detect faces within the provided image. Demo account: Email - test@gmail.com, Password - test.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "tachyons",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "postgreSQL",
+        color: "grey-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: FD,
+    source_code_link: "https://github.com/SaritSopitvetmontree/Face_Detection",
+    demo_link: "https://SaritSopitvetmontree.github.io/Face_Detection",
   },
   {
     name: "Little Lemon",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A fictional restaurant website created as a capstone project for the Meta Front-End course. Built using React, this site showcases the effective use of React Router and responsive design techniques.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "React Dashboard",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: LL,
+    source_code_link: "https://github.com/SaritSopitvetmontree/Little_Lemon",
+    demo_link: "https://SaritSopitvetmontree.github.io/Little_Lemon",
+  },
+  {
+    name: "React Dashboard",
+    description:
+      "An all-in-one dashboard built using React and the Syncfusion design system. Showcasing the effective use of React hooks and state control, it offers a dynamic and visually appealing interface.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: RD,
+    source_code_link: "https://github.com/SaritSopitvetmontree/Dashboard",
+    demo_link: "https://saritsopitvetmontree.github.io/Dashboard",
   },
 ];
 
