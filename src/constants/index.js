@@ -124,6 +124,7 @@ const experiences = [
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Learned the daily tasks as a software developer and how to operate in a team.",
+      "Most importantly, I learned that software developer is all about problem solving",
     ],
   },
   {
