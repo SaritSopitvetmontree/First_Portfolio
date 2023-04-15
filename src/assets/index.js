@@ -29,6 +29,10 @@ import KELPS from "./company/KELPS.png";
 import FD from "./FD.png";
 import LL from "./LL.png";
 import RD from "./RD.png";
+import Linkedin from "./Linkedin.png";
+import Github from "./Github.png";
+import Instagram from "./Instagram.png";
+import Mail from "./Mail.png";
 
 export {
   logo,
@@ -59,4 +63,8 @@ export {
   FD,
   LL,
   RD,
+  Linkedin,
+  Github,
+  Instagram,
+  Mail,
 };

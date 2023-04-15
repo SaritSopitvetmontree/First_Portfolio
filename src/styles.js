@@ -12,6 +12,10 @@ const styles = {
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
+  socialMedia:
+    "sm:text-[26px] text-[20px] text-secondary tracking-wider",
+  mail:
+    "sm:text-[22px] text-[16px] text-secondary tracking-wider w-auto text-center pt-8 pb-8 border-gray-500 border-2",
 };
 
 export { styles };
