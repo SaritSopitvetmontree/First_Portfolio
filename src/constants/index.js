@@ -15,13 +15,17 @@ import {
   git,
   figma,
   docker,
+  nextjs,
+  gcp,
   meta,
+  Qunasys,
+  Digifab,
   Liigo,
   KELPS,
   shopify,
   FD,
   LL,
-  RD,
+  DF,
   threejs,
   BlackGithub,
   NestJS,
@@ -79,36 +83,36 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "NestJS",
-    icon: NestJS,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
     name: "github",
     icon: BlackGithub,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
+    name: "GCP",
+    icon: gcp,
   },
   {
     name: "figma",
@@ -118,27 +122,50 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Developer Intern",
-    company_name: "Liigo: A travel tech company",
+    title: "UX Engineer",
+    company_name: "QunaSys: Quantum computer software company",
+    icon: Qunasys,
+    iconBg: "#2A3038",
+    date: "AUG 2023 - PRESENT",
+    points: [
+      "Develop and modify websites using Next.js and related development tools",
+      "Design and optimize the design in Figma based on data from user research",
+      "Work with related technologies such as Google Cloud Platform and non-code builder tools",
+    ],
+  },
+  {
+    title: "UX Designer",
+    company_name: "Digitech Fabrication: 3D printing service company",
+    icon: Digifab,
+    iconBg: "#000000",
+    date: "JUL 2023 - OCT 2023",
+    points: [
+      "Decide the requirements for a 3D printing service website based on user data and interviews",
+      "Create a design system, sitemap, and high-fidelity design for the website",
+      "Work together with developer to deliver the website with a contribution to coding",
+    ],
+  },
+  {
+    title: "Frontend Developer",
+    company_name: "Liigo: Travel tech company",
     icon: Liigo,
     iconBg: "#FFFFFF",
-    date: "APR 2023 - Present",
+    date: "APR 2023 - JUL 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Learned the daily tasks as a software developer and how to operate in a team.",
-      "Most importantly, I learned that software developer is all about problem solving",
+      "Develop and maintain web application using React.js and related technologies.",
+      "Learn the daily works as a software developer and how to operate in a team.",
     ],
   },
   {
     title: "Embedded System Engineer",
-    company_name: "KELPS: A 3D printer developing startup",
+    company_name: "KELPS: 3D printer developing startup",
     icon: KELPS,
     iconBg: "#1b1b1d",
-    date: "APR 2021 - OCT 2021",
+    date: "OCT 2020 - SEP 2021",
     points: [
-      "Managed tasks and timelines for team members, ensuring efficient progress and coordination",
-      "Developed Python code for Raspberry Pi, serving as the central control system for the printer",
-      "Designed and created mechanical components for the 3D printer",
+      "Manage tasks and timelines for team members, ensuring efficient progress and coordination",
+      "Develop Python code for Raspberry Pi, serving as the central control system for the printer",
+      "Design and create mechanical components for the 3D printer",
     ],
   },
 ];
@@ -172,9 +199,31 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Digitech Fabrication",
+    description:
+      "A web application for 3D printing service in Thailand. Within the order page, user can upload .stl file and select printing material to calculate the price automatically.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: DF,
+    source_code_link: "https://www.digifab-th.com/",
+    demo_link: "https://www.digifab-th.com/",
+  },
+  {
     name: "Face Detection",
     description:
-      "A full-stack web app utilizing a face detection API with a built-in registration and login system. The app can detect faces within the provided image. Demo account: Email - test@gmail.com, Password - test.",
+      "(Self-practice project) A web app utilizing a face detection API with a register and login system. Demo account: Email - test@gmail.com, Password - test.",
     tags: [
       {
         name: "react",
@@ -200,7 +249,7 @@ const projects = [
   {
     name: "Little Lemon",
     description:
-      "A fictional restaurant website created as a capstone project for the Meta Front-End course. Built using React, this site showcases the effective use of React Router and responsive design techniques.",
+      "(Self-practice project) A capstone project for the Meta Front-End course. Built using React, this site showcases the effective use of React Router and responsive design techniques.",
     tags: [
       {
         name: "react",
@@ -214,24 +263,6 @@ const projects = [
     image: LL,
     source_code_link: "https://github.com/SaritSopitvetmontree/Little_Lemon",
     demo_link: "https://SaritSopitvetmontree.github.io/Little_Lemon",
-  },
-  {
-    name: "React Dashboard",
-    description:
-      "An all-in-one dashboard built using React and the Syncfusion design system. Showcasing the effective use of React hooks and state control, it offers a dynamic and visually appealing interface.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: RD,
-    source_code_link: "https://github.com/SaritSopitvetmontree/Dashboard",
-    demo_link: "https://saritsopitvetmontree.github.io/Dashboard",
   },
 ];
 

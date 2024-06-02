@@ -54,26 +54,23 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Hi, I'm Sarit Sopitvetmontree, a graduate student passionate about front-end 
-        development. My expertise lies in React, while I also possess knowledge in UX/UI design, 
-        back-end development, and database. I prioritize user experience and believe the digital 
-        world offers limitless creative possibilities. Outside of work, I enjoy exploring nature and 
-        immersing myself in fictional tales. Feel free to reach out and connect! 😊 
+        Hi, I'm Sarit Sopitvetmontree, a UX engineer from Thailand who currently work in both frontend
+        development and UX/UI design. I prioritize user experience and believe the digital
+        world offers limitless creative possibilities. Outside of work, I enjoy exploring nature and
+        immersing myself in all kind of tales. Feel free to reach out and connect! 😊
         <br />
-        <br /><span style={styleone}><b>Languages I speak : </b>Thai English Japanese HTML CSS Javascript</span>
-        <br /><span style={styleone}><b>Technologies I know : </b>Typescript React.js Tailwind Express.js Nest.js</span>
-        <br /><span style={styleone}><b>Tools I use : </b>Linux VSCode Git/Github Figma</span>
-        <br />
-        <br /><span style={styletwo}><b>My career goal : </b>Becoming a person who can both design and develop digital products</span>
-        <br /><span style={styletwo}><b>My current plan : </b>I will first become a proficient front-end developer. Once I have gained experience and confidence, I will pursue UX/UI design to expand my expertise.</span>
-        
+        <br /><span style={styletwo}><b>Languages I speak : </b>Thai English Japanese HTML CSS Javascript</span>
+        <br /><span style={styletwo}><b>Development tech I learned : </b>VSCode Git Github React Next.js MUI Tailwind docker</span>
+        <br /><span style={styletwo}><b>Design stuuf I experienced : </b>Figma DesignSystem Sitemap Prototyping</span>
+        <br /><span style={styleone}><b>Other knowledge I have : </b>CloudPlatform(GCP) MechanicalEngineering RoomOrganizing </span>
+
       </motion.p>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        
+
       </motion.p>
 
       {/* <div className='mt-20 flex flex-wrap gap-10'>

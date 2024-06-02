@@ -20,15 +20,19 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.svg";
+import gcp from "./tech/gcp.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
+import Qunasys from "./company/Qunasys.png";
+import Digifab from "./company/Digifab.jpg";
 import Liigo from "./company/Liigo.png";
 import KELPS from "./company/KELPS.png";
 
 import FD from "./FD.png";
 import LL from "./LL.png";
-import RD from "./RD.png";
+import DF from "./DF.jpg";
 import Linkedin from "./Linkedin.png";
 import Github from "./Github.png";
 import Instagram from "./Instagram.png";
@@ -58,13 +62,17 @@ export {
   tailwind,
   typescript,
   threejs,
+  nextjs,
+  gcp,
   meta,
   shopify,
+  Qunasys,
+  Digifab,
   Liigo,
   KELPS,
   FD,
   LL,
-  RD,
+  DF,
   Linkedin,
   Github,
   Instagram,
